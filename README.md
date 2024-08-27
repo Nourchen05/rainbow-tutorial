@@ -1,13 +1,26 @@
-# How to make wallet connect button using NextJS and RainbowKit
+# WalletConnect Integration with RainbowKit and Wagmi
 
-![](https://miro.medium.com/v2/resize:fit:720/format:webp/1*oiKiN2tr2HXXCuio8Zx6Mw.png)
+This project is a React application using Next.js, RainbowKit, and Wagmi for integrating multiple wallets, including Argent, Trust Wallet, and Ledger, with support for Polygon, Sepolia, and Linea Testnet chains. The project is configured to connect to wallets through WalletConnect.
+
+## Features
+
+- **Multi-chain Support**: Supports Polygon, Sepolia, and Linea Testnet.
+- **Multiple Wallets**: Integrates with Argent Wallet, Trust Wallet, and Ledger Wallet.
+- **RainbowKit Integration**: Provides a customizable and user-friendly wallet connection UI.
+- **Wagmi Integration**: Manages connectors, chain configurations, and auto-connect functionality.
+- **Environment Variable Configuration**: Uses `.env` file to store sensitive project configuration.
 
 # Useful links
 
-- [Video Guide on YouTube](https://youtu.be/DeESYzQ5L3M)
 - [RainbowKit](https://www.rainbowkit.com/)
 - [Wagmi](https://wagmi.sh/)
-- [Viem](https://viem.sh/)
+
+### Prerequisites
+
+Make sure you have the following installed:
+
+- [Node.js](https://nodejs.org/) (v14 or later)
+- [npm](https://www.npmjs.com/) or [yarn](https://yarnpkg.com/)
 
 # How to install and run dApp
 
@@ -24,9 +37,3 @@ npm run dev
 ```
 
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
-
-## My Socail Media
-
-- [LinkedIn](https://www.linkedin.com/in/vladyslavpereder/)
-- [Twitter](https://twitter.com/fuga_eth)
-- [YouTube](https://www.youtube.com/channel/UCqyhP6cqs_4tJv6UizXBBYg)
